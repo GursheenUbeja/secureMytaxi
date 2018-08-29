@@ -23,7 +23,7 @@ Note : The data is currently setup in code, Can be fetched from repository (enha
 
 
 Step 2 : 
-Link : http://localhost:8080/v1/drivers/1 (any other URL too).
+Link : http://localhost:8080/v1/cars (any other URL too).
 Input : {
   "enginetype": "Gas",
   "id": 0,
@@ -32,6 +32,17 @@ Input : {
   "rating": "Four",
   "seatcount": "Four"
 }
+
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "enginetype": "Gas", \ 
+   "id": 0, \ 
+   "licenseplate": "string", \ 
+   "manufacturer": "string", \ 
+   "rating": "One", \ 
+   "seatcount": "Four" \ 
+ }' 'http://localhost:8080/v1/cars'
+
+
 Authentication : Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0IiwiZXhwIjoxNTM2NDMxMzI2fQ.5DhqP7sccBMYZhhbI4h2EES87ovVCkhWr9N2jS3QSTzo2d-_4TkMKFWGmQ1gPHGPN0sb2c60cFHkh0q3ICxiRA
 Output : {
     "id": 1,
