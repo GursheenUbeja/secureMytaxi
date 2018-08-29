@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: mytaxi applicant test
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: jeetu
+Implementation-Vendor-Id: com.mytaxi
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/mytaxi_server_applicant_test
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Intelligent Apps GmbH
+
